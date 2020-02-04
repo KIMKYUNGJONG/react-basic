@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+
 // import ScrollBox from './ScrollBox.js';
 //import IterationSample from './IterationSample.js';
-import LifeCycleSample from './LifeCycleSample.js';
+//import LifeCycleSample from './LifeCycleSample.js';
+import MyScssComponent from './MyScssComponent';
 
 function getRandomColor() {
   return '#' + Math.floor(Math.random() * 16777215).toString(16);
@@ -24,8 +26,10 @@ class App extends Component {
         <button onClick={() => this.scrollBox.scrollToBottom()}>
           맨 밑으로
         </button> */}
-        <button onClick={this.handleClick}>랜덤색상</button>
-        <LifeCycleSample color={this.state.color} />
+
+        <MyScssComponent />
+        {/* <button onClick={this.handleClick}>랜덤색상</button>
+        <LifeCycleSample color={this.state.color} /> */}
       </div>
     );
   }

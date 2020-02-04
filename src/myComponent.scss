@@ -1,0 +1,27 @@
+.my-div {
+  background-color: aqua;
+  font-size: 15px;
+}
+
+.MyComponent {
+  background: black;
+  color: white;
+  padding: 1rem;
+
+  .something-inside {
+    background: white;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    transition: all .5s;
+
+    &:hover {
+      background: skyblue;
+    }
+
+    &:active {
+      background: beige;
+    }
+  }
+}
