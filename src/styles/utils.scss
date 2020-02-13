@@ -1,3 +1,10 @@
+@import 'node_modules/open-color/open-color.scss';
+@import 'node_modules/include-media/dist/include-media.scss';
+
+$breakpoints: (small: 376px,
+  medium: 768px,
+  large: 1024px,
+  huge: 1200px);
 $size: 100px;
 
 @mixin place-at-center() {

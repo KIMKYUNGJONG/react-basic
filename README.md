@@ -10,3 +10,11 @@
 - 조건부 스타일링을 위한 연습. classnames/bind 를 통해 변수값으로 클래스의 적용 유무 및 간편한 사용이 가능.
 - css Module을 통한 고유한 클래스네임을 만드나 프로젝트가 커질 시 가독성이 떨어지므로 sass,less,stylus 등 css전처리기 사용이 필요.
 - sass 적용. v2 버전에선 따로 sass-loader를 설치 하지 않음. node-sass만 설치.
+
+## 2020.2.13 - 스타일링 연습.
+
+- v2 버전에선 따로 디렉토리 설정을 할 필요가 없었음. 모듈에서 가져올경우 'node_module/~'.
+- mixin을 이용해 media 쿼리로 반응형 컴포넌트를 제작.
+- styledComponent 설치 및 예제 실행.
+
+# 리액트 기초 정리.
